@@ -34,9 +34,9 @@ text-decoration: underline;
 }
 
 #logo {
-	margin: 20px;
+	margin: 15px;
 	float: left;
-	width: 200px;
+	width: 70px;
 	height: 50px;
 	background: url(../img/nav.png) no-repeat center;
 	display: block;

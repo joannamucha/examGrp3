@@ -1,3 +1,87 @@
 @charset "utf-8";
 /* CSS Document */
 
+header {
+	background: rgba(142,48,49,1.00);
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	border-bottom: 5px solid rgba(124,44,45,1.00);
+}
+
+ul {
+
+list-style: none;
+}
+
+li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+a {
+	color: aliceblue;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+#logo {
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height: 50px;
+	background: url(../img/nav.png) no-repeat center;
+	display: block;
+}
+
+nav {
+	float: right;
+	padding: 20px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+#menu-icon {
+	background: url(../img/menu.png) no-repeat center;
+	display: none;
+	width: 32px;
+	height: 32px;
+}
+
+@media only screen and (max-width: 640px) {
+	header {
+		position: absolute;
+	}
+	
+	#menu-icon {
+		display: inline-block;
+	}
+	
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: rgba(165,30,32,1.00);
+		right: 10px;
+		top: 65px;
+		width: 35%;
+	}
+	
+	nav:hover ul {
+		display: block;
+	}
+	
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 15px 0;
+		margin: 0;
+	}
+}

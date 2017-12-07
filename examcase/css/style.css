@@ -36,16 +36,16 @@ li {
 
 #logo {
 	background: url(../img/nav.png) no-repeat;
-	margin: 15px;
+	margin: 13px;
 	float: left;
-	width: 70px;
+	width: 50px;
 	height: 50px;
 	display: block;
 }
 
 nav {
 	float: right;
-	padding: 20px;
+	padding: 10px;
 	font-family: "Work Sans", "serif";
 }
 
@@ -70,22 +70,24 @@ Styling Main
 }
 h1 { 
     display: block;
-    font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
+    font-size: 2.2em;
+    padding-top:0.67em;
+    padding-bottom: 0.67em;
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
 	text-align: center;
 }
 
-.main-section p {
-	display: flex;
+.main-section {
+	text-align: center;
 }
 
 .main-section img {
 	width: 100%;
 }
+
+
 /*
 Styling Footer
 */

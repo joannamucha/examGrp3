@@ -16,7 +16,8 @@ header {
 	left: 0;
 	z-index: 100;
 }
-
+.header {
+}
 ul {
 
 list-style: none;
@@ -47,6 +48,7 @@ nav {
 	float: right;
 	padding: 10px;
 	font-family: "Work Sans", "serif";
+	
 }
 
 nav a {
@@ -57,8 +59,13 @@ nav a {
 #menu-icon {
 	background: url(../img/menu.png) no-repeat center;
 	display: none;
+	
 	width: 75px;
 	height: 52px;
+}
+.clearfix {
+	clear: both;
+	height: 3px;
 }
 
 /*
@@ -103,8 +110,9 @@ Styling Footer
 	}
 .contact {
 	margin-bottom: 0.7em;
-	
+	text-align: center;
 }
+
 
 h6 { 
     display: block;
@@ -136,7 +144,9 @@ text-align: center;
 .footer-section {
 	padding: 1em;
 }
-
+.names p{
+	color: #686868;
+}
 /*
 Media Queries
 */
@@ -145,7 +155,8 @@ Media Queries
 
 @media only screen and (max-width: 575px) {
 	header {
-		position: absolute;
+	position: fixed;
+	top: 0;
 	}
 	
 	#menu-icon {
@@ -179,6 +190,9 @@ footer
 */
 
 @media only screen and (min-width: 575px) {
+	nav {
+		position:relative;
+	}
 	.heading3 {
 		border: none;
 	}

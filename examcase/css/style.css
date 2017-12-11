@@ -56,12 +56,23 @@ nav a {
 	text-decoration: none;
 }
 
-#menu-icon {
+/* #menu-icon {
 	background: url(../img/menu.png) no-repeat center;
 	display: none;
 	
 	width: 75px;
 	height: 52px;
+} 
+*/ 
+
+.dropbtn {
+	background: url(../img/menu.png) no-repeat center;
+	display: none;
+	width: 75px;
+	height: 52px;
+}
+button {
+	border-style: none;
 }
 .clearfix {
 	clear: both;
@@ -159,10 +170,13 @@ Media Queries
 	top: 0;
 	}
 	
-	#menu-icon {
+	/* #menu-icon {
 		display: inline-block;
 	}
-	
+*/ 
+	.dropbtn {
+		display: inline-block;
+	}
 	nav ul, nav:active ul {
 		display: none;
 		position: absolute;

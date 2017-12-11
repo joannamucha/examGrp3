@@ -65,6 +65,7 @@ nav a {
 } 
 */ 
 
+
 .dropbtn {
 	background: url(../img/menu.png) no-repeat center;
 	display: none;
@@ -81,6 +82,12 @@ button {
 /*
 Styling Main
 */
+.cloud {
+	background: url(../img/cloud.png) no-repeat center;
+}
+.main-container p {
+	margin: 1em 1em;
+}
  
 .main-container {
 	margin-top: 76px;
@@ -104,7 +111,18 @@ h1 {
 	width: 100%;
 }
 
-/* Slideshow */
+.eight {
+	margin-bottom: 1.5em;
+}
+.eight a {
+	color: rgb(0, 163, 173);
+}
+/*styling video*/ 
+.video {
+	width: 100%;
+}
+
+/* Slideshow 
 .gallery {
 	position: relative;
 }
@@ -132,6 +150,7 @@ h1 {
 	right: 0;
 	margin-right: .25em;
 }
+*/
 /*
 Styling Footer
 */

@@ -104,7 +104,34 @@ h1 {
 	width: 100%;
 }
 
-
+/* Slideshow */
+.gallery {
+	position: relative;
+}
+.mySlides {
+	width: 100%;
+}
+.arrow {
+	color: #FFF;
+	cursor: pointer;
+	font-size: 2em;
+	text-shadow: 1px 1px #000;
+	top: 50%;
+	transition: color .3s;
+	transform: translateY(-50%);
+	position: absolute;
+}
+.arrow:hover {
+	color: #ccc;
+}
+.back {
+	left: 0;
+	margin-left: .25em;
+}
+.next {
+	right: 0;
+	margin-right: .25em;
+}
 /*
 Styling Footer
 */

@@ -42,7 +42,36 @@
    
     <div class="main-section two">
 		<p>It all started in 1876 when the first phone was invented...</p>
-		<img src="img/liquid-telephone.jpg" alt="first telephone">
+		<div class="gallery">
+   <img class="mySlides" src="img/1-liquid telephone.jpg" alt="liquid telephone">
+    <img class="mySlides" src="img/2-butterstamp.jpg" alt="butterstamp telephone">
+     <img class="mySlides" src="img/3-magneto wall set.jpg" alt="magneto wall set telephone">
+      <img class="mySlides" src="img/4-desk set.jpg" alt="desk set telephone">
+      <img class="mySlides" src="img/5-dial telephone.jpg" alt="dial telephone">
+      <img class="mySlides" src="img/6-300 type desk set.jpg" alt="300 type desk set telephone">
+      <img class="mySlides" src="img/7-wall telephone.jpg" alt="wall telephone">
+      <img class="mySlides" src="img/8-touchtone telephone.jpg" alt="touchtone telephone">
+       <a class="arrow back" onclick="plusDivs(-1)">&#10094;</a> 
+       <a class="arrow next" onclick="plusDivs(+1)">&#10095;</a> </div>
+    <script>    
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+</script> 
 		
 		<!-- slideshow with phones-->
 		</div>

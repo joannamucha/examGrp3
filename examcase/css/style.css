@@ -144,7 +144,7 @@ padding: 1.5em;
 	padding: 1em 0;
 }
 .arrow {
-	color: black;
+	color:#706f6f;
 	cursor: pointer;
 	font-size: 2em;
 	text-shadow: 1px 1px #000;
@@ -154,7 +154,7 @@ padding: 1.5em;
 	top: 50%;
 }
 .arrow:hover {
-	color: #ccc;
+	color: #03a2ac;
 }
 .back {
 	left: 0;

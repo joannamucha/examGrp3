@@ -132,35 +132,40 @@ padding: 1.5em;
 	border-top-left-radius: 90px;
 	border-bottom-right-radius: 90px;
 }
-/* Slideshow 
-.gallery {
+/* Slideshow */
+.stories {
 	position: relative;
+	width: 85%;
+	margin: auto;
+	
 }
-.mySlides {
-	width: 100%;
+.story-slideshow {
+	background-color: #dadada;
+	padding: 1em 0;
 }
 .arrow {
-	color: #FFF;
+	color: black;
 	cursor: pointer;
 	font-size: 2em;
 	text-shadow: 1px 1px #000;
-	top: 50%;
 	transition: color .3s;
 	transform: translateY(-50%);
 	position: absolute;
+	top: 50%;
 }
 .arrow:hover {
 	color: #ccc;
 }
 .back {
 	left: 0;
-	margin-left: .25em;
+	margin-left: -1em;
+
 }
 .next {
 	right: 0;
-	margin-right: .25em;
+	margin-right: -1em;
 }
-*/
+
 /*
 Styling Footer
 */
@@ -308,9 +313,16 @@ footer
 	.bubble {
 		width: 45%;
 	}
+	.stories{
+		width: 80%;
+	}
 }
 
-@media only screen and (min-width: 767px) {}
+@media only screen and (min-width: 767px) {
+	.stories{
+		width: 60%;
+	}
+}
 @media only screen and (min-width: 991px) {}
 @media only screen and (min-width: 1199px) {}
 

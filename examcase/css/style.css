@@ -82,9 +82,6 @@ button {
 /*
 Styling Main
 */
-.cloud {
-	background: url(../img/cloud.png) no-repeat center;
-}
 .main-container p {
 	margin: 1em 1em;
 }
@@ -249,6 +246,9 @@ footer
 */
 
 @media only screen and (min-width: 575px) {
+	body {
+		background-color: darkgoldenrod;
+	}
 	nav {
 		position:relative;
 	}
@@ -270,5 +270,13 @@ footer
 	
 	.footer-section {
 		flex: 1;
+	}
+	
+	.main-section img {
+		width: 50%;
+	}
+	
+	.video {
+		width: 50%;
 	}
 }

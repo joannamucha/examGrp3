@@ -169,13 +169,17 @@ padding: 1.5em;
 	color: #03a2ac;
 }
 .back {
-	left: 0;
-	margin-left: -1em;
+	left: 0.05em;
+	/*margin-left: 0.1em;*/
 
 }
 .next {
-	right: 0;
-	margin-right: -1em;
+	right: 0.05em;;
+	/*margin-right: 0.1em;*/
+}
+
+.myslidesstories {
+	font-size: 1.2em;
 }
 
 /*

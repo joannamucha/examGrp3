@@ -16,8 +16,6 @@ header {
 	left: 0;
 	z-index: 100;
 }
-.header {
-}
 ul {
 
 list-style: none;
@@ -316,7 +314,7 @@ footer
 	}
 	
 	.main-section img {
-		width: 50%;
+		width: 80%;
 	}
 	
 	.video {

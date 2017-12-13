@@ -288,10 +288,9 @@ footer
 @media only screen and (min-width: 575px) {
 	
 	.main-wrapper {
-		width: 80%;
+		width: 100%;
 		margin: auto;
-		border-left: 1px solid rgba(75,75,75,0.8);
-		border-right: 1px solid rgba(75,75,75,0.8);
+		
 	}
 	nav {
 		position:relative;
@@ -321,7 +320,7 @@ footer
 	}
 	
 	.video {
-		width: 50%;
+		width: 80%;
 	}
 	
 	.bubble {
@@ -338,11 +337,70 @@ footer
 	}
 }
 @media only screen and (min-width: 991px) {
+	
+	.main-wrapper {
+		width: 100%;
+	}
+	
 	.story-slideshow {
-		
-    width: 50%;
-    margin: auto;
+    padding:3em;
 	 }
+	
+	.main-section {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 7em;
+		
+	}
+	.bubble {
+		max-width: 30%;
+		flex: 1;
+		flex-grow: 1;
+	}
+	.visual {
+		max-width: 55%;
+		flex: 1;
+		flex-grow: 3;
+	}
+	.two {
+		background-color: #706F6F;
+	}
+	.six {
+		background-color: #2E2D2C;
+		
+	}
+	.four {
+		background-color: #F8BB09
+	}
+	.eight {
+		flex-direction: column;
+		flex-wrap: wrap;
+		font-size: 1.3em;
+	}
+	
+	.reverse {
+		flex-direction: row-reverse;
+	}
+	.reverse-bubble {
+	border-top-right-radius: 90px;
+	border-top-left-radius: 90px;
+	border-bottom-left-radius: 90px;
+		border-bottom-right-radius: 0;
+}
+	.seven {
+		flex-direction: column;
+		flex-wrap: wrap;
+		padding: 0;
+	}
+	.seven .reverse-bubble {
+		color: #2E2D2C;
+	background-color: white;
+	font-size: 1.3em;
+	font-weight: 400;
+	}
+	
 }
 @media only screen and (min-width: 1199px) {}
 

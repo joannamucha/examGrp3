@@ -138,7 +138,7 @@ padding: 1.5em;
 }
 
 /*adding margin top to each section*/
-
+.story-slideshow {font-style: italic;}
 
 /* Slideshow */
 .stories {
@@ -312,6 +312,8 @@ footer
 	.footer-section {
 		flex: 1;
 	}
+	
+	
 	
 	.main-section img {
 		width: 80%;

@@ -20,7 +20,6 @@
 				<nav>
 					<div class="dropdown">
 						<button id="burger" class="dropbtn"></button>
-						<!-- <a href="#" id="menu-icon"></a> -->
 						<div id="myDropdown" class="dropdown-content">
 							<ul>
 								<li><a href="#sectiontwo">Past</a>
@@ -42,13 +41,18 @@
 				<div class="clearfix"></div>
 				<a id="sectiontwo"></a>
 				<div class="section zero">
-					<div class="animatedsun"><img src="img/sun.png" alt="sun" class="animation sun"></div>
+					<div class="animatedsun"><img src="img/sun.png" alt="sun" class="animation sun">
+					</div>
 					<div class="clouds">
-					<div class="first"><img src="img/cloud.png" alt="cloud" class="animation"></div>
-					<div class="second"><img src="img/cloud.png" alt="cloud" class="animation"></div>
-					<div class="third"><img src="img/smallcloud.png" alt="cloud" class="animation"></div>
-					<div class="fourth"><img src="img/smallcloud.png" alt="cloud" class="animation"></div>
-</div>
+						<div class="first"><img src="img/cloud.png" alt="cloud" class="animation">
+						</div>
+						<div class="second"><img src="img/cloud.png" alt="cloud" class="animation">
+						</div>
+						<div class="third"><img src="img/smallcloud.png" alt="cloud" class="animation">
+						</div>
+						<div class="fourth"><img src="img/smallcloud.png" alt="cloud" class="animation">
+						</div>
+					</div>
 				</div>
 				<div class="main-section one">
 					<h1>Let us connect <br>
@@ -106,7 +110,7 @@
 						<p>So many people shared their stories with us...would you share yours?</p>
 					</div>
 					<div class="story-slideshow">
-						<!--start slideshow eith stories-->
+						<!--start slideshow with stories-->
 						<div class="stories">
 							<p class="myslidesstories">"A travel memory that I will never forget is from Malta, the most beautiful place I visited during my Mediterranean backpacking trip.I will just say that I had the most wonderful time in Malta, learnt a lot about myself, and met the love of my life. How crazy is that?" <br>
 								<i> - Katie, 2015</i> </p>

@@ -19,7 +19,6 @@ header {
 ul {
     list-style: none;
 }
-
 li {
     display: inline-block;
     float: left;
@@ -31,7 +30,6 @@ li {
     font-weight: bold;
 }
 .logo {
-    /*background: url(../img/logo.png) no-repeat;*/
     margin: 13px;
     float: left;
     width: auto;
@@ -51,7 +49,6 @@ nav a {
     font-weight: bolder;
     font-size: 1.2em;
 }
-
 .dropbtn {
     background: url(../img/menu.png) no-repeat center;
     display: none;
@@ -68,7 +65,7 @@ button {
 Styling Main
 */
 .animation {
-	display: none;
+    display: none;
 }
 .main-container p {
     margin: 1em 1em;
@@ -141,12 +138,11 @@ h1 {
     color: #03a2ac;
 }
 .back {
-    left: 0.05em;/*margin-left: 0.1em;*/
-
+    left: 0.05em;
 }
 .next {
     right: 0.05em;
-    ;/*margin-right: 0.1em;*/
+    
 }
 .myslidesstories {
     font-size: 1.2em;
@@ -211,10 +207,6 @@ header {
     position: fixed;
     top: 0;
 }
-/* #menu-icon {
-		display: inline-block;
-	}
-*/ 
 .dropbtn {
     display: inline-block;
 }
@@ -234,7 +226,7 @@ nav li {
     text-align: center;
     width: 100%;
     padding: 15px 0;
-    margin: 0;/*border-top: 1px solid #706f6f;*/
+    margin: 0;
 }
 }
 
@@ -285,8 +277,7 @@ nav {
     width: 60%;
 }
 }
-
-@media only screen and (min-width: 991px) {
+ @media only screen and (min-width: 991px) {
 .main-wrapper {
     width: 100%;
 }
@@ -307,7 +298,7 @@ nav {
 }
 .bubble:hover {
     transform: scale(1.2);
-	transition: 2s;
+    transition: 2s;
 }
 .visual {
     max-width: 55%;
@@ -358,86 +349,93 @@ animated elements
 .scale:hover {
     transform: translate(20px, 20px);
 }
-	
-	.animation {
-	display: inline;
+.animation {
+    display: inline;
 }
-	.sun {
-		display: block;
-		margin: auto;
-	}
-	.clouds {
-		display: flex;
-		flex-direction: row;
-	}
-	
-	/*animated sun*/
-	.animatedsun img {
-    -webkit-animation: sun 4s infinite  alternate;
-    animation: sun 4s infinite  alternate;
+.sun {
+    display: block;
+    margin: auto;
 }
-	
-@keyframes sun {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(260px); }
+.clouds {
+    display: flex;
+    flex-direction: row;
 }
-	/*animated clouds*/
-	.first img {
-		 -webkit-animation: firstcloud 6s infinite  alternate;
-    animation: firstcloud 6s infinite  alternate;
-	}
-	
-	@keyframes firstcloud {
-    0% { transform: translateX(50%); }
-    100% { transform: translateX(100%); }
+/*animated sun*/
+.animatedsun img {
+    -webkit-animation: sun 4s infinite alternate;
+    animation: sun 4s infinite alternate;
 }
-	
-	.second img {
-		 -webkit-animation: secondcloud 10s infinite  alternate;
-    animation: secondcloud 10s infinite  alternate;
-	}
-	
-	@keyframes secondcloud {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(850px); }
+ @keyframes sun {
+ 0% {
+transform: translateY(0);
 }
-	
-	.third img {
-		 -webkit-animation: thirdcloud 6s infinite  alternate;
-    animation: thirdcloud 6s infinite  alternate;
-	}
-	
-	@keyframes thirdcloud {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(700px); }
+ 100% {
+transform: translateY(260px);
 }
-	
-	.fourth img {
-		 -webkit-animation: fourthcloud 5s infinite  alternate;
-    animation: fourthcloud 5s infinite  alternate;
-	}
-	
-	@keyframes fourthcloud {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(700px); }
+}
+/*animated clouds*/
+.first img {
+    -webkit-animation: firstcloud 6s infinite alternate;
+    animation: firstcloud 6s infinite alternate;
+}
+ @keyframes firstcloud {
+ 0% {
+transform: translateX(50%);
+}
+ 100% {
+transform: translateX(100%);
+}
+}
+.second img {
+    -webkit-animation: secondcloud 10s infinite alternate;
+    animation: secondcloud 10s infinite alternate;
+}
+ @keyframes secondcloud {
+ 0% {
+transform: translateX(0);
+}
+ 100% {
+transform: translateX(850px);
+}
+}
+.third img {
+    -webkit-animation: thirdcloud 6s infinite alternate;
+    animation: thirdcloud 6s infinite alternate;
+}
+ @keyframes thirdcloud {
+ 0% {
+transform: translateX(0);
+}
+ 100% {
+transform: translateX(700px);
+}
+}
+.fourth img {
+    -webkit-animation: fourthcloud 5s infinite alternate;
+    animation: fourthcloud 5s infinite alternate;
+}
+ @keyframes fourthcloud {
+ 0% {
+transform: translateX(0);
+}
+ 100% {
+transform: translateX(700px);
+}
 }
 /*
 animation clouds ends
 */
-	h1 {
-		color: #2e2d2c;
-		font-weight: bold;
-	}
-
-	.one {
-		background-image: url(../img/mountain.png);
-		background-size: 100%;
-	}
-	
-	nav a {
-		color: #2e2d2c;
-	}
-
-
-@media only screen and (min-width: 1199px) {
+h1 {
+    color: #2e2d2c;
+    font-weight: bold;
+}
+.one {
+    background-image: url(../img/mountain.png);
+    background-size: 100%;
+}
+nav a {
+    color: #2e2d2c;
+}
+ @media only screen and (min-width: 1199px) {
+	 /*maybe width of wrapper for extra large desktop*/
 }

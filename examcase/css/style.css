@@ -397,7 +397,7 @@ animated elements
     -webkit-animation: sun 4s infinite alternate;
     animation: sun 4s infinite alternate;
 }
-}
+
  @keyframes sun {
  0% {
 transform: translateY(0);

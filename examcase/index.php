@@ -135,11 +135,10 @@
 		if ( isSet( $_GET[ 'data' ] ) ) {
 			$answer = strip_tags( $_GET[ 'data' ] );
 			if ( $answer != "" ) {
-				file_put_contents( "./data.txt", "$answer\n", FILE_APPEND );
+				file_put_contents( "./data.txt", "<p>$answer</p>\n", FILE_APPEND );
 			}
 		}
 		?>
-
 		<form method="GET" action="./index.php" class="form">
 			<textarea name="data" class="textarea"></textarea>
 

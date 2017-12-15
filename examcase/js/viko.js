@@ -11,6 +11,4 @@ $("#burger").on("touch",funtion {
 });
 				
 				
-//$("#burger").click( function(){
-    //$('#myDropdown').hide();
-				//});			
+			

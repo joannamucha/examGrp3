@@ -303,7 +303,8 @@ nav {
     width: 60%;
 }
 }
- @media only screen and (min-width: 991px) {
+
+@media only screen and (min-width: 991px) {
 .main-wrapper {
     width: 100%;
 }
@@ -396,6 +397,7 @@ animated elements
     -webkit-animation: sun 4s infinite alternate;
     animation: sun 4s infinite alternate;
 }
+}
  @keyframes sun {
  0% {
 transform: translateY(0);
@@ -468,6 +470,7 @@ h1 {
 nav a {
     color: #2e2d2c;
 }
- @media only screen and (min-width: 1199px) {
+
+@media only screen and (min-width: 1199px) {
 /*maybe width of wrapper for extra large desktop*/
 }

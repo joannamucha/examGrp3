@@ -125,19 +125,29 @@
 				<div class="clearfix"></div>
 				<a id="sectioneight"></a>
 				<div class="main-section eight">
-					<p>If you want others to read your story, <br> send us an email.</p>
-					<a href="mailto:shareyourstory.hallo@gmail.com">shareyourstory.hallo@gmail.com</a> </div>
+					<p>If you want others to read your story, <br> write it below:</p>
+				</div>
 			</div>
 		</main>
 	</div>
 	<div class="calculate">
 		<?php
-		$date = strtotime( "September 15, 2017 6:00 PM" );
-		$remaining = time() - $date;
-		$days_remaining = floor( $remaining / 86400 );
-		$hours_remaining = floor( ( $remaining % 86400 ) / 3600 );
-		echo "We have been open for: $days_remaining days and $hours_remaining hours ";
+		if ( isSet( $_GET[ 'data' ] ) ) {
+			$answer = strip_tags( $_GET[ 'data' ] );
+			if ( $answer != "" ) {
+				file_put_contents( "./data.txt", "$answer\n", FILE_APPEND );
+			}
+		}
 		?>
+
+		<form method="GET" action="./index.php" class="form">
+			<textarea name="data" class="textarea"></textarea>
+
+			<br/>
+			<div class="container-button"><input type="submit" value="Send" class="button-send">
+			</div>
+		</form>
+		<br/>
 	</div>
 	<footer>
 		<div class="footer-container">

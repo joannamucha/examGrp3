@@ -9,7 +9,7 @@
 	<link href="css/reset.css" type="text/css" rel="stylesheet">
 	<link href="css/style.css" type="text/css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-	<!-- SEO meta tags-->
+	<!-- SEO meta tags end-->
 	<title>Hallo Hostel Story</title>
 </head>
 
@@ -89,7 +89,7 @@
 						<p>Today in the very same building, we are trying to connect the past with the present!</p>
 					</div>
 					<div class="visual">
-						<video controls class="video" alt="video of hallo hostel" title="The video is about connecting the past with the present in hallo hostel">
+						<video controls class="video" title="The video is about connecting the past with the present in hallo hostel">
 							<source src="video/videoone.mp4" type="video/mp4">
 						</video>
 					</div>

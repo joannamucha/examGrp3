@@ -132,10 +132,15 @@
 	</div>
 	<div class="calculate">
 		<?php
+		//The isset determines if a variable is set and is not //NULL 
+		//The GET method sends the encoded user information to //the document called data.txt
 		if ( isSet( $_GET[ 'data' ] ) ) {
+			//The function returns a string with all Null bytes, HTML and PHP tags from a given input string
 			$answer = strip_tags( $_GET[ 'data' ] );
 			if ( $answer != "" ) {
-				file_put_contents( "./data.txt", "<p>$answer</p>\n", FILE_APPEND );
+				//put the user's string into the document data.txt as a paragraph 
+				file_put_contents( "./data.txt", "
+				<p>$answer</p>\n", FILE_APPEND );
 			}
 		}
 		?>

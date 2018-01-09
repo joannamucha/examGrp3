@@ -6,10 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="Description" content="This is the history of Hallo hostel and the bulding that the hostel is placed in. Read about other people's stories and do not hesitate to share yours">
 	<meta name="Keywords" content="Hallo hostel, aarhus, Denmark, olt telephone central, telecommunication history, storytelling, stories, phone,connect, share, people">
+    <!-- SEO meta tags end-->
 	<link href="css/reset.css" type="text/css" rel="stylesheet">
 	<link href="css/style.css" type="text/css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-	<!-- SEO meta tags end-->
 	<title>Hallo Hostel Story</title>
 </head>
 

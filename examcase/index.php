@@ -167,7 +167,7 @@
 			</div>
 			<div class="footer-section footer-desk">
 				<h6 class="special desktop-heading">Follow Us</h6>
-				<a href="https://www.facebook.com/hallohostelaarhus/"><img src="img/facebook.png" alt="facebook icon"></a> <a href="https://www.instagram.com/hallohostel/"><img src="img/instagram.png" alt="instagram icon"></a> </div>
+				<a href="https://www.facebook.com/hallohostelaarhus/" target="_blank"><img src="img/facebook.png" alt="facebook icon"></a> <a href="https://www.instagram.com/hallohostel/" target="_blank"><img src="img/instagram.png" alt="instagram icon"></a> </div>
 			<div class="footer-section">
 				<h6 class="special heading3 desktop-heading">Copyright &copy; The Busy Bees</h6>
 				<p class="contact names">Maria Asenova</p>

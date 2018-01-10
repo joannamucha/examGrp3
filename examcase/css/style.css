@@ -218,6 +218,22 @@ h6 {
     width: 30px;
 }
 
+.arrow-up {
+	font-size: 2em;
+	background-color: #03a2ac;
+	width: 45px;
+	text-align: center;
+	border-radius: 50%;
+	padding: 0.1em;
+    margin-left: 87%;
+	margin-bottom: 1%;
+}
+
+.arrow-up a {
+	text-decoration: none;
+	color: rgba(238,238,238,1.00);
+	font-weight: bold;
+}
 /*
 Media Queries
 */
@@ -305,6 +321,12 @@ nav {
 }
 
 @media only screen and (min-width: 991px) {
+	
+	.arrow-up {
+		font-size: 3em;
+		margin-left: 95%;
+	}
+	
 .main-wrapper {
     width: 100%;
 }

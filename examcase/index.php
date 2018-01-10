@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="Description" content="This is the history of Hallo hostel and the bulding that the hostel is placed in. Read about other people's stories and do not hesitate to share yours">
 	<meta name="Keywords" content="Hallo hostel, aarhus, Denmark, olt telephone central, telecommunication history, storytelling, stories, phone,connect, share, people">
-    <!-- SEO meta tags end-->
+	<!-- SEO meta tags end-->
 	<link href="css/reset.css" type="text/css" rel="stylesheet">
 	<link href="css/style.css" type="text/css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
@@ -57,7 +57,8 @@
 				<div class="main-section one">
 					<h1>Let us connect <br>
           you to our <br>
-          story...</h1>
+          story...<br>
+					&darr;</h1>
 				</div>
 				<div class="main-section two">
 					<div class="bubble">
@@ -153,6 +154,7 @@
 		</form>
 		<br/>
 	</div>
+		<div class="arrow-up-container"><p  class="arrow-up"><a href="#">&#8593;</a></p></div>
 	<footer>
 		<div class="footer-container">
 			<div class="footer-section footer-desk">

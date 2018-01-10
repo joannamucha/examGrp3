@@ -63,6 +63,16 @@
 				<div class="main-section two">
 					<div class="bubble">
 						<p class="cloud">It all started in 1876 when the first phone was invented...</p>
+						<button class="myButton">Read more</button>
+					</div>
+					<div id="myModal" class="modal">
+
+
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<p>On March 7, 1876, Bell became the first inventor to receive a US patent for the technology that powered the telephone. Working with his assistant, Thomas Watson, Bell initially had a different goal in mind: to develop a “harmonic telegraph” that could send a number of messages at the same time, each at its own pitch. But after an accidental discovery, in which Watson electrified a vibrating reed on the telegraph, Bell and Watson created a device using vibration to produce and receive sound waves through electrical signals.
+							</p>
+						</div>
 					</div>
 					<div class="visual scale"> <img src="img/thefirstphone.jpg" alt="liquid telephone"> </div>
 				</div>
@@ -71,6 +81,7 @@
 				<div class="main-section three reverse">
 					<div class="bubble reverse-bubble">
 						<p>When the phone fever began to spread, people started to connect more and more... </p>
+						<button class="myButton">Read more</button>
 					</div>
 					<div class="visual scale"> <a href="https://imgflip.com/gif/20zom3"><img src="https://i.imgflip.com/20zom3.gif" alt="animated gif with old telephone"></a> </div>
 					<!-- cinemagraph-->
@@ -80,6 +91,7 @@
 				<div class="main-section four">
 					<div class="bubble">
 						<p>In the telephone central of Aarhus, with the help of the chitchat ladies operating the magic buttons, important stories could be shared...</p>
+						<button class="myButton">Read more</button>
 					</div>
 					<div class="visual scale"> <img src="img/chitchat.jpg" alt="chitchat ladies"> </div>
 				</div>
@@ -87,7 +99,8 @@
 				<a id="sectionfive"></a>
 				<div class="main-section five reverse">
 					<div class="bubble reverse-bubble">
-						<p>Today in the very same building, we are trying to connect the past with the present!</p>
+						<p>Today in the very same building, we are trying to connect the past with the present...</p>
+						<button class="myButton">Read more</button>
 					</div>
 					<div class="visual">
 						<video controls class="video" title="The video is about connecting the past with the present in hallo hostel">
@@ -154,7 +167,10 @@
 		</form>
 		<br/>
 	</div>
-		<div class="arrow-up-container"><p  class="arrow-up"><a href="#">&#8593;</a></p></div>
+	<div class="arrow-up-container">
+		<p class="arrow-up"><a href="#">&#8593;</a>
+		</p>
+	</div>
 	<footer>
 		<div class="footer-container">
 			<div class="footer-section footer-desk">

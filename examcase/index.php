@@ -55,7 +55,7 @@
 					</div>
 				</div>
 				<div class="main-section one">
-					<h1>Let us connect <br>
+					<h1 title="Scroll down">Let us connect <br>
           you to our <br>
           story...<br>
 					&darr;</h1>
@@ -168,7 +168,7 @@
 		<br/>
 	</div>
 	<div class="arrow-up-container">
-		<p class="arrow-up"><a href="#">&#8593;</a>
+		<p class="arrow-up" title="Go up"><a href="#">&#8593;</a>
 		</p>
 	</div>
 	<footer>

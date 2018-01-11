@@ -83,6 +83,16 @@
 						<p>When the phone fever began to spread, people started to connect more and more... </p>
 						<button class="myButton">Read more</button>
 					</div>
+					<div id="myModal" class="modal">
+
+
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<p>The telephone has had a big impact on the world. When it was first introduced, it could only be afforded by the rich as the materials needed for connection were very expensive. The telephone changed the way social relationship and social interaction take place. Communication over the telephone broadened the range of people one could interact with. Long distance relationships became possible. Keeping close bond with families and communities became possible.
+
+							</p>
+						</div>
+					</div>
 					<div class="visual scale"> <a href="https://imgflip.com/gif/20zom3"><img src="https://i.imgflip.com/20zom3.gif" alt="animated gif with old telephone"></a> </div>
 					<!-- cinemagraph-->
 				</div>
@@ -93,6 +103,16 @@
 						<p>In the telephone central of Aarhus, with the help of the chitchat ladies operating the magic buttons, important stories could be shared...</p>
 						<button class="myButton">Read more</button>
 					</div>
+					<div id="myModal" class="modal">
+
+
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<p>In the early days of telephony, callers spoke to a switchboard operator at a Central Office who then connected a cord to the proper circuit in order to complete the call. The operators usually served the same small group of customers every day. This created an intimacy between client and customer as customers grew to recognize operators’ voices. In many areas, operators could be counted on to have all sorts of information on hand, such as latest news, weather, sports results, correct time of the day, and even gossip.
+
+							</p>
+						</div>
+					</div>
 					<div class="visual scale"> <img src="img/chitchat.jpg" alt="chitchat ladies"> </div>
 				</div>
 				<div class="clearfix"></div>
@@ -101,6 +121,16 @@
 					<div class="bubble reverse-bubble">
 						<p>Today in the very same building, we are trying to connect the past with the present...</p>
 						<button class="myButton">Read more</button>
+					</div>
+					<div id="myModal" class="modal">
+
+
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<p>Our building was the focal point of chitchat back in the day, and we are trying to stay true to our roots. The hostel has a strong social aspect, with multiple common areas, terrace and cafeteria where both internationals and locals can hang out. Altogether, atmosphere we created in the hostel is friendly and homey. It is meant to be a home away from home for travelers! We believe there are still many stories left to be told, and we invite you back to the old telephone central to share yours.
+
+							</p>
+						</div>
 					</div>
 					<div class="visual">
 						<video controls class="video" title="The video is about connecting the past with the present in hallo hostel">
@@ -115,6 +145,7 @@
 					<div class="bubble">
 						<p>We want to continue the tradition of bringing people together and sharing their stories.</p>
 					</div>
+
 					<div class="visual stretch scale"> <a href="https://imgflip.com/gif/20zpfc"><img src="https://i.imgflip.com/20zpfc.gif" alt="animated give hallo hostel logo"></a> </div>
 				</div>
 				<div class="clearfix"></div>

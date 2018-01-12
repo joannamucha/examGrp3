@@ -170,7 +170,7 @@
 				<div class="clearfix"></div>
 				<a id="sectioneight"></a>
 				<div class="main-section eight">
-					<p>If you want others to read your story, <br> write it below:</p>
+					<p> Write your story below <br> if you want others to read it:</p>
 				</div>
 			</div>
 		</main>

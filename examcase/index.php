@@ -93,7 +93,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="visual scale"> <a href="https://imgflip.com/gif/20zom3"><img src="https://i.imgflip.com/20zom3.gif" alt="animated gif with old telephone"></a> </div>
+					<div class="visual scale"> <a href="https://imgflip.com/gif/20zom3"><img src="gif/redphonemoving.gif" alt="animated gif with old telephone"></a> </div>
 					<!-- cinemagraph-->
 				</div>
 				<div class="clearfix"></div>
@@ -134,7 +134,7 @@
 					</div>
 					<div class="visual">
 						<video controls class="video" title="The video is about connecting the past with the present in hallo hostel">
-							<source src="video/videoone.mp4" type="video/mp4">
+							<source src="video/guestbook.mp4" type="video/mp4">
 						</video>
 					</div>
 					<!-- video-->
@@ -193,7 +193,7 @@
 			<textarea name="data" class="textarea"></textarea>
 
 			<br/>
-			<div class="container-button"><input type="submit" value="Send" class="button-send">
+			<div class="container-button"><input type="submit" value="Send" class="button-send" title="Send us your story">
 			</div>
 		</form>
 		<br/>

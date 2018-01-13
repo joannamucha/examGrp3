@@ -190,7 +190,7 @@
 		}
 		?>
 		<form method="GET" action="./index.php" class="form">
-			<textarea name="data" class="textarea"></textarea>
+			<textarea name="data" class="textarea" value ="Write your story here ..." type="text"></textarea>
 
 			<br/>
 			<div class="container-button"><input type="submit" value="Send" class="button-send" title="Send us your story">

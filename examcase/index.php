@@ -193,7 +193,7 @@
 			<textarea name="data" class="textarea" value ="Write your story here ..." type="text"></textarea>
 
 			<br/>
-			<div class="container-button"><input type="submit" value="Send" class="button-send" title="Send us your story">
+			<div class="container-button"><input type="submit" value="Send" class="buttonSend" title="Send us your story">
 			</div>
 		</form>
 		<br/>

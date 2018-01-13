@@ -35,3 +35,10 @@ window.onclick = function(event) {
     }
 }
 } //closing the for loop 
+
+//adding alert when subtim button pressed 
+function myAlert() {
+	alert("Your story has been sent successfully");
+}
+
+document.querySelector('.buttonSend').addEventListener('click', myAlert);

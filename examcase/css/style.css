@@ -155,7 +155,7 @@ h1 {
     height: 140px;
     margin: auto;
 }
-.button-send {
+.buttonSend {
     background-color: #03a2ac;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     color: rgba(247,247,247,1.00);
@@ -166,7 +166,7 @@ h1 {
     /*float: right;*/
     margin: 0.5em;
 }
-.button-send:hover {
+.buttonSend:hover {
     background-color: #dadada;
 }
 /*styling buttons for add-text*/

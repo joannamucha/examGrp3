@@ -169,17 +169,15 @@ h1 {
 .button-send:hover {
     background-color: #dadada;
 }
-
 /*styling buttons for add-text*/
 .myButton {
-	border: none;
-	background-color: #03a2ac;
-	color: #dadada;
-	cursor: pointer;
-	font-style: italic;
-	font-size: 0.8em;
+    border: none;
+    background-color: #03a2ac;
+    color: #dadada;
+    cursor: pointer;
+    font-style: italic;
+    font-size: 0.8em;
 }
-
 /*styling read more*/
 
 .modal {
@@ -195,21 +193,19 @@ h1 {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content {
-	color: white;
+    color: white;
     background-color: #03a2ac;
     margin: auto;
     padding: 20px;
     border: 1px solid #03a2ac;
     width: 85%;
-	font-size: 1.2em;
-	border-top-right-radius: 70px;
+    font-size: 1.2em;
+    border-top-right-radius: 70px;
     border-top-left-radius: 90px;
     border-bottom-right-radius: 90px;
 }
-
 /* The Close Button */
 .close {
     color: white;
@@ -217,9 +213,7 @@ h1 {
     font-size: 28px;
     font-weight: bold;
 }
-
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
     color: #dadada;
     text-decoration: none;
     cursor: pointer;
@@ -272,24 +266,23 @@ h6 {
 .footer-section img {
     width: 30px;
 }
-
 .arrow-up {
-	font-size: 2em;
-	background-color: #03a2ac;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-	width: 45px;
-	text-align: center;
-	border-radius: 50%;
-	padding: 0.1em;
+    font-size: 2em;
+    background-color: #03a2ac;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 45px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0.1em;
     margin-left: 87%;
-	margin-bottom: 1%;
+    margin-bottom: 1%;
+}
+.arrow-up a {
+    text-decoration: none;
+    color: rgba(238,238,238,1.00);
+    font-weight: bold;
 }
 
-.arrow-up a {
-	text-decoration: none;
-	color: rgba(238,238,238,1.00);
-	font-weight: bold;
-}
 /*
 Media Queries
 */
@@ -322,7 +315,6 @@ nav li {
     padding: 15px 0;
     margin: 0;
 }
-	
 }
 
 /*
@@ -369,7 +361,7 @@ nav {
     width: 50%;
     margin: auto;
 }
-	.modal-content {
+.modal-content {
     width: 60%;
 }
 }
@@ -381,12 +373,10 @@ nav {
 }
 
 @media only screen and (min-width: 991px) {
-	
-	.arrow-up {
-		font-size: 3em;
-		margin-left: 95%;
-	}
-	
+.arrow-up {
+    font-size: 3em;
+    margin-left: 95%;
+}
 .main-wrapper {
     width: 100%;
 }

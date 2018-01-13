@@ -93,7 +93,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="visual scale"> <a href="https://imgflip.com/gif/20zom3"><img src="gif/redphonemoving.gif" alt="animated gif with old telephone"></a> </div>
+					<div class="visual scale"> <a><img src="gif/redphonemoving.gif" alt="animated gif with old telephone"></a> </div>
 					<!-- cinemagraph-->
 				</div>
 				<div class="clearfix"></div>
@@ -146,7 +146,7 @@
 						<p>We want to continue the tradition of bringing people together and sharing their stories.</p>
 					</div>
 
-					<div class="visual stretch scale"> <a href="https://imgflip.com/gif/20zpfc"><img src="https://i.imgflip.com/20zpfc.gif" alt="animated give hallo hostel logo"></a> </div>
+					<div class="visual stretch scale"> <a><img src="gif/logo.gif" alt="animated give hallo hostel logo"></a> </div>
 				</div>
 				<div class="clearfix"></div>
 				<a id="sectionseven"></a>

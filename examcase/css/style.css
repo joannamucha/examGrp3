@@ -7,6 +7,11 @@ body {
 Styling Nav
 */
 
+/*hidden message for alert*/
+.messageAlert {
+	display: none;
+}
+
 header {
     background: #dadada;
     width: 100%;

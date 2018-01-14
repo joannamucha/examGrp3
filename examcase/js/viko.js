@@ -37,8 +37,13 @@ window.onclick = function(event) {
 } //closing the for loop 
 
 //adding alert when subtim button pressed 
+
+//getting the element to display
+var textAlert = document.querySelector('.textAlert');
+
+//function to show content of el
 function myAlert() {
-	alert("Your story has been sent successfully");
+	alert(textAlert.textContent);
 }
 
 document.querySelector('.buttonSend').addEventListener('click', myAlert);

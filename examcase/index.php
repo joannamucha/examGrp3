@@ -195,6 +195,7 @@
 			<br/>
 			<div class="container-button"><input type="submit" value="Send" class="buttonSend" title="Send us your story">
 			</div>
+			<div class="messageAlert"><p class="textAlert">Your story has been sent successfully</p></div>
 		</form>
 		<br/>
 	</div>

@@ -87,9 +87,14 @@ h1 {
     font-weight: 400;
     text-align: center;
 }
+
+.mountain img {
+	width: 100%;
+}
 .main-section {
     text-align: center;
 }
+
 .main-section img {
     width: 100%;
 }
@@ -395,6 +400,10 @@ nav {
     align-items: center;
     padding: 7em;
 }
+	
+	.one {
+		flex-direction: column;
+	}
 .bubble {
     max-width: 30%;
     flex: 1;
@@ -464,8 +473,9 @@ animated elements
 .sun {
     display: block;
     margin: auto;
+	z-index: 3;
 }
-.clouds {
+.airplanes {
     display: flex;
     flex-direction: row;
 }
@@ -479,71 +489,59 @@ animated elements
 transform: translateY(0);
 }
  100% {
-transform: translateY(260px);
+transform: translateY(220px);
 }
 }
-/*animated clouds*/
-.first img {
-    -webkit-animation: firstcloud 6s infinite alternate;
-    animation: firstcloud 6s infinite alternate;
-}
- @keyframes firstcloud {
- 0% {
-transform: translateX(50%);
-}
- 100% {
-transform: translateX(100%);
-}
-}
+/*animated airplanes*/
 .second img {
-    -webkit-animation: secondcloud 10s infinite alternate;
-    animation: secondcloud 10s infinite alternate;
+    -webkit-animation: secondcloud 4s normal forwards;
+    animation: secondcloud 4s normal forwards;
 }
  @keyframes secondcloud {
  0% {
-transform: translateX(0);
+transform: translateX(1800px);
 }
  100% {
-transform: translateX(850px);
+transform: translateX(-180px);
 }
 }
-.third img {
-    -webkit-animation: thirdcloud 6s infinite alternate;
-    animation: thirdcloud 6s infinite alternate;
-}
- @keyframes thirdcloud {
- 0% {
-transform: translateX(0);
-}
- 100% {
-transform: translateX(700px);
-}
-}
+	
 .fourth img {
-    -webkit-animation: fourthcloud 5s infinite alternate;
-    animation: fourthcloud 5s infinite alternate;
+    -webkit-animation: fourthcloud 6s normal forwards;
+    animation: fourthcloud 6s normal forwards;
 }
  @keyframes fourthcloud {
  0% {
-transform: translateX(0);
+transform: translateX(-20px);
 }
  100% {
-transform: translateX(700px);
+transform: translateX(1800px);
 }
 }
 /*
-animation clouds ends
+animation airplanes ends
 */
 h1 {
     color: #2e2d2c;
     font-weight: bold;
-    padding-top: 1em;
+    padding: 0;
+	z-index: 1;
 }
-.one {
+/*.one {
     background-image: url(../img/mountain.png);
+	background-repeat: no-repeat;
     background-size: 100%;
-}
+}*/
 nav a {
     color: #2e2d2c;
 }
+	
+	.one {
+		padding: 0;
+	}
+	
+	.one img {
+		width: 100%;
+	}
+	
 }

@@ -43,14 +43,10 @@
 				<div class="section zero">
 					<div class="animatedsun"><img src="img/sun.png" alt="sun" class="animation sun">
 					</div>
-					<div class="clouds">
-						<div class="first"><img src="img/cloud.png" alt="cloud" class="animation">
+					<div class="airplanes">
+						<div class="second"><img src="img/plane.png" alt="airplane" class="animation">
 						</div>
-						<div class="second"><img src="img/cloud.png" alt="cloud" class="animation">
-						</div>
-						<div class="third"><img src="img/smallcloud.png" alt="cloud" class="animation">
-						</div>
-						<div class="fourth"><img src="img/smallcloud.png" alt="cloud" class="animation">
+						<div class="fourth"><img src="img/planeflip.png" alt="airplane" class="animation">
 						</div>
 					</div>
 				</div>
@@ -59,6 +55,9 @@
           you to our <br>
           story...<br>
 					&darr;</h1>
+					<div class="mountain">
+					<img src="img/mountain.png">
+						</div>
 				</div>
 				<div class="main-section two">
 					<div class="bubble">

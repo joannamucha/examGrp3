@@ -41,7 +41,7 @@
 				<div class="clearfix"></div>
 				<a id="sectiontwo"></a>
 				<div class="section zero">
-					<div class="animatedsun"><img src="img/sun.png" alt="sun" class="animation sun">
+					<div class="animatedsun"><img src="img/sun.png" alt="sun" class="animation sun"></div>
 					</div>
 					<div class="airplanes">
 						<div class="second"><img src="img/plane.png" alt="airplane" class="animation">
@@ -56,8 +56,8 @@
           story...<br>
 					&darr;</h1>
 					<div class="mountain">
-					<img src="img/mountain.png">
-						</div>
+						<img src="img/mountain.png">
+					</div>
 				</div>
 				<div class="main-section two">
 					<div class="bubble">
@@ -189,12 +189,14 @@
 		}
 		?>
 		<form method="GET" action="./index.php" class="form">
-			<textarea name="data" class="textarea" value ="Write your story here ..." type="text"></textarea>
+			<textarea name="data" class="textarea" placeholder="Write your story here ..." type="text"></textarea>
 
 			<br/>
-			<div class="container-button"><input type="submit" value="Send" class="buttonSend" title="Send us your story">
+			<div class="container-button"><input type="submit" value="Send" class="buttonSend">
 			</div>
-			<div class="messageAlert"><p class="textAlert">Your story has been sent successfully</p></div>
+			<div class="messageAlert">
+				<p class="textAlert">Your story has been sent successfully</p>
+			</div>
 		</form>
 		<br/>
 	</div>

@@ -164,6 +164,7 @@ h1 {
     width: 100%;
     height: 140px;
     margin: auto;
+	overflow: scroll;
 }
 .buttonSend {
     background-color: #03a2ac;
@@ -471,6 +472,9 @@ animated elements
     display: inline;
 }
 .sun {
+	height: 90px;
+	background-color: aqua;
+	border-radius: 50%;
     display: block;
     margin: auto;
 	z-index: 3;

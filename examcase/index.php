@@ -56,7 +56,7 @@
           story...<br>
 					&darr;</h1>
 					<div class="mountain">
-						<img src="img/mountain.png">
+						<img src="img/aarhuslandscape.png">
 					</div>
 				</div>
 				<div class="main-section two">
@@ -165,7 +165,7 @@
 							<a class="arrow back" onclick="plusDivs(-1)">&#10094;</a> <a class="arrow next" onclick="plusDivs(+1)">&#10095;</a> </div>
 					</div>
 					<!-- end slideshow with stories-->
-				</div>
+			</div>	
 				<div class="clearfix"></div>
 				<a id="sectioneight"></a>
 				<div class="main-section eight">

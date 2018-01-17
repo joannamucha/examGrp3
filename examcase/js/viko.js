@@ -4,12 +4,16 @@ $(document).ready(function(){
     $("#burger").click(function(){
         $(".dropdown-content").toggle();
     });
+	
+	$(".modal").on("click", function() {
+		$(this).fadeOut(1000);
+		
+	});
 });
 
 //code for providing the user with 'read more'
 // Get the modal so it returns a collection of HTML elements 
 var modal = document.getElementsByClassName('modal');
-
 // Get the button that opens the modal and get an array
 var btn = document.getElementsByClassName("myButton");
 
@@ -28,12 +32,7 @@ span[i].onclick = function() {
     modal[i].style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal[i].style.display = "none";
-    }
-}
+
 } //closing the for loop 
 
 //adding alert when subtim button pressed 

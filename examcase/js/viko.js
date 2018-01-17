@@ -32,7 +32,6 @@ span[i].onclick = function() {
     modal[i].style.display = "none";
 }
 
-
 } //closing the for loop 
 
 //adding alert when subtim button pressed 

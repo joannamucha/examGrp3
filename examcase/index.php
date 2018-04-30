@@ -16,13 +16,13 @@
 <body>
 	<div class="main-wrapper">
 		<header>
-			<article class="header"> <a href="#" id="logo"><img src="img/logo.png" alt="logo of hallo hostel" class="logo"></a>
+			<div class="header"> <a href="#" id="logo"><img src="img/logo.png" alt="logo of hallo hostel" class="logo"></a>
 				<nav>
-					<section class="dropdown">
+					<div class="dropdown">
 						<button id="burger" class="dropbtn"></button>
 						<div id="myDropdown" class="dropdown-content">
 							<ul>
-								<li><a href="#sectiontwo">Past </a>
+								<li><a href="#sectiontwo">Past</a>
 								</li>
 								<li><a href="#sectionfive">Present</a>
 								</li>
@@ -32,26 +32,26 @@
 								</li>
 							</ul>
 						</div>
-					</section>
+					</div>
 				</nav>
-			</article>
+			</div>
 		</header>
 		<main>
 			<div class="main-container">
 				<div class="clearfix"></div>
 				<a id="sectiontwo"></a>
 				<div class="section zero">
-					<article class="animatedsun"><img src="img/sun.png" alt="sun" class="animation sun">
-					</article>
+					<div class="animatedsun"><img src="img/sun.png" alt="sun" class="animation sun">
+					</div>
 				</div>
-				<section class="airplanes">
+				<div class="airplanes">
 					<div class="second"><img src="img/plane.png" alt="airplane" class="animation">
 					</div>
 					<div class="fourth"><img src="img/planeflip.png" alt="airplane" class="animation">
 					</div>
-				</section>
+				</div>
 			</div>
-			<div class="main-section one">
+			<section class="main-section one">
 				<h1 title="Scroll down">Let us connect <br>
           you to our <br>
           story...<br>
@@ -59,98 +59,86 @@
 				<div class="mountain">
 					<img src="img/aarhuslandscape.png">
 				</div>
-			</div>
-			<div class="main-section two">
+			</section>
+			<section class="main-section two">
 				<div class="bubble">
 					<p class="cloud">It all started in 1876 when the first phone was invented...</p>
-					<button class="myButton">Read more</button>
-				</div>
-				<div id="myModal" class="modal">
-
-
-					<div class="modal-content">
-						<span class="close">&times;</span>
-						<p>On March 7, 1876, Bell became the first inventor to receive a US patent for the technology that powered the telephone. Working with his assistant, Thomas Watson, Bell initially had a different goal in mind: to develop a “harmonic telegraph” that could send a number of messages at the same time, each at its own pitch. But after an accidental discovery, in which Watson electrified a vibrating reed on the telegraph, Bell and Watson created a device using vibration to produce and receive sound waves through electrical signals.
-						</p>
-					</div>
-				</div>
+				<button class="myButton">Read more</button>
+			</section>
+			<div id="myModal" class="modal">
+				<article class="modal-content">
+					<span class="close">&times;</span>
+					<p>On March 7, 1876, Bell became the first inventor to receive a US patent for the technology that powered the telephone. Working with his assistant, Thomas Watson, Bell initially had a different goal in mind: to develop a “harmonic telegraph” that could send a number of messages at the same time, each at its own pitch. But after an accidental discovery, in which Watson electrified a vibrating reed on the telegraph, Bell and Watson created a device using vibration to produce and receive sound waves through electrical signals.
+					</p>
+				</article>
+			</div>
 				<div class="visual scale"> <img src="img/thefirstphone.jpg" alt="liquid telephone"> </div>
 			</div>
 			<div class="clearfix"></div>
 			<a id="sectionthree"></a>
-			<div class="main-section three reverse">
+			<section class="main-section three reverse">
 				<div class="bubble reverse-bubble">
 					<p>When the phone fever began to spread, people started to connect more and more... </p>
 					<button class="myButton">Read more</button>
 				</div>
 				<div id="myModal" class="modal">
-
-
-					<div class="modal-content">
+					<article class="modal-content">
 						<span class="close">&times;</span>
 						<p>The telephone has had a big impact on the world. When it was first introduced, it could only be afforded by the rich as the materials needed for connection were very expensive. The telephone changed the way social relationship and social interaction take place. Communication over the telephone broadened the range of people one could interact with. Long distance relationships became possible. Keeping close bond with families and communities became possible.
-
 						</p>
-					</div>
+					</article>
 				</div>
 				<div class="visual scale"> <a><img src="gif/redphonemoving.gif" alt="animated gif with old telephone"></a> </div>
 				<!-- cinemagraph-->
-			</div>
+			</section>
 			<div class="clearfix"></div>
 			<a id="sectionfour"></a>
-			<div class="main-section four">
+			<section class="main-section four">
 				<div class="bubble">
 					<p>In the telephone central of Aarhus, with the help of the chitchat ladies operating the magic buttons, important stories could be shared...</p>
 					<button class="myButton">Read more</button>
 				</div>
 				<div id="myModal" class="modal">
-
-
-					<div class="modal-content">
+					<article class="modal-content">
 						<span class="close">&times;</span>
 						<p>In the early days of telephony, callers spoke to a switchboard operator at a Central Office who then connected a cord to the proper circuit in order to complete the call. The operators usually served the same small group of customers every day. This created an intimacy between client and customer as customers grew to recognize operators’ voices. In many areas, operators could be counted on to have all sorts of information on hand, such as latest news, weather, sports results, correct time of the day, and even gossip.
-
 						</p>
-					</div>
+					</article>
 				</div>
 				<div class="visual scale"> <img src="img/chitchat.jpg" alt="chitchat ladies"> </div>
-			</div>
+			</section>
 			<div class="clearfix"></div>
 			<a id="sectionfive"></a>
-			<div class="main-section five reverse">
+			<section class="main-section five reverse">
 				<div class="bubble reverse-bubble">
 					<p>Today in the very same building, we are trying to connect the past with the present...</p>
 					<button class="myButton">Read more</button>
 				</div>
 				<div id="myModal" class="modal">
-
-
-					<div class="modal-content">
+					<article class="modal-content">
 						<span class="close">&times;</span>
 						<p>Our building was the focal point of chitchat back in the day, and we are trying to stay true to our roots. The hostel has a strong social aspect, with multiple common areas, terrace and cafeteria where both internationals and locals can hang out. Altogether, atmosphere we created in the hostel is friendly and homey. It is meant to be a home away from home for travelers! We believe there are still many stories left to be told, and we invite you back to the old telephone central to share yours.
-
 						</p>
-					</div>
+					</article>
 				</div>
-				<div class="visual">
+				<article class="visual">
 					<video controls class="video" title="The video is about connecting the past with the present in hallo hostel">
 						<source src="video/guestbook.mp4" type="video/mp4">
 					</video>
-				</div>
+				</article>
 				<!-- video-->
-			</div>
+			</section>
 			<div class="clearfix"></div>
 			<a id="sectionsix"></a>
-			<div class="main-section six">
+			<section class="main-section six">
 				<div class="bubble">
 					<p>We want to continue the tradition of bringing people together and sharing their stories.</p>
 				</div>
-
 				<div class="visual stretch scale"> <a><img src="gif/logo.gif" alt="animated give hallo hostel logo"></a> </div>
-			</div>
+			</section>
 			<div class="clearfix"></div>
 			<a id="sectionseven"></a>
-			<div class="main-section seven reverse">
+			<article class="main-section seven reverse">
 				<div class="bubble reverse-bubble">
 					<p>So many people shared their stories with us...would you share yours?</p>
 				</div>
@@ -164,17 +152,17 @@
 						</p>
 						<p class="myslidesstories">"I will always remember my trip to Norway, since it is a photographer’s paradise. It is full of breathtaking nature and I believe there is nothing as calming as spending time admiring it.It was the best experience of my life, and everytime I go through my photos I feel like I am there again." <br> - Adrian, 2016 </p>
 						<a class="arrow back" onclick="plusDivs(-1)">&#10094;</a> <a class="arrow next" onclick="plusDivs(+1)">&#10095;</a> </div>
-				</div>
+				</articles>
 				<!-- end slideshow with stories-->
 			</div>
 			<div class="clearfix"></div>
 			<a id="sectioneight"></a>
-			<div class="main-section eight">
+			<section class="main-section eight">
 				<p> Write your story below <br> if you want others to read it:</p>
-			</div>
-	</div>
+			</section>
+	</div> <!-- end of main wrapper -->
 	</main>
-	</div>
+</div>  <!-- end of main-wrapper -->
 	<div class="calculate">
 		<?php
 		//The isset determines if a variable is set and is not //NULL
@@ -207,25 +195,31 @@
 	</div>
 	<footer>
 		<div class="footer-container">
-			<div class="footer-section footer-desk">
+			<section class="footer-section footer-desk">
 				<h6 class="desktop-heading">Contact Us</h6>
 				<p class="contact">Hallo Hostel Aarhus</p>
 				<p class="contact">Fiskergade 2</p>
 				<p class="contact">8000 Aarhus C</p>
 				<p class="contact">Denmark</p>
 				<p> <a class="mail" href="mailto:info@hallohostelaarhus.com">info@hallohostelaarhus.com</a> <br> +45 86101020 </p>
-			</div>
-			<div class="footer-section footer-desk">
+			</section>
+			<section class="footer-section footer-desk">
 				<h6 class="special desktop-heading">Follow Us</h6>
-				<a href="https://www.facebook.com/hallohostelaarhus/" target="_blank"><img src="img/facebook.png" alt="facebook icon"></a> <a href="https://www.instagram.com/hallohostel/" target="_blank"><img src="img/instagram.png" alt="instagram icon"></a> </div>
-			<div class="footer-section">
+				<a href="https://www.facebook.com/hallohostelaarhus/" target="_blank">
+					<img src="img/facebook.png" alt="facebook icon">
+				</a>
+				<a href="https://www.instagram.com/hallohostel/" target="_blank">
+					<img src="img/instagram.png" alt="instagram icon">
+				</a>
+			</section>
+			<section class="footer-section">
 				<h6 class="special heading3 desktop-heading">Copyright &copy; The Busy Bees</h6>
 				<p class="contact names">Maria Asenova</p>
 				<p class="contact names">Fani Bosak</p>
 				<p class="contact names">Andreea Popa</p>
 				<p class="contact names">Joanna Mucha</p>
-			</div>
-		</div>
+			</section>
+		</div> <!-- footer container end -->
 	</footer>
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/viko.js"></script>

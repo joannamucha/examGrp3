@@ -16,13 +16,13 @@
 <body>
 	<div class="main-wrapper">
 		<header>
-			<div class="header"> <a href="#" id="logo"><img src="img/logo.png" alt="logo of hallo hostel" class="logo"></a>
+			<article class="header"> <a href="#" id="logo"><img src="img/logo.png" alt="logo of hallo hostel" class="logo"></a>
 				<nav>
-					<div class="dropdown">
+					<section class="dropdown">
 						<button id="burger" class="dropbtn"></button>
 						<div id="myDropdown" class="dropdown-content">
 							<ul>
-								<li><a href="#sectiontwo">Past</a>
+								<li><a href="#sectiontwo">Past </a>
 								</li>
 								<li><a href="#sectionfive">Present</a>
 								</li>
@@ -32,24 +32,24 @@
 								</li>
 							</ul>
 						</div>
-					</div>
+					</section>
 				</nav>
-			</div>
+			</article>
 		</header>
 		<main>
 			<div class="main-container">
 				<div class="clearfix"></div>
 				<a id="sectiontwo"></a>
 				<div class="section zero">
-					<div class="animatedsun"><img src="img/sun.png" alt="sun" class="animation sun">
-					</div>
+					<article class="animatedsun"><img src="img/sun.png" alt="sun" class="animation sun">
+					</article>
 				</div>
-				<div class="airplanes">
+				<section class="airplanes">
 					<div class="second"><img src="img/plane.png" alt="airplane" class="animation">
 					</div>
 					<div class="fourth"><img src="img/planeflip.png" alt="airplane" class="animation">
 					</div>
-				</div>
+				</section>
 			</div>
 			<div class="main-section one">
 				<h1 title="Scroll down">Let us connect <br>
@@ -177,13 +177,13 @@
 	</div>
 	<div class="calculate">
 		<?php
-		//The isset determines if a variable is set and is not //NULL 
+		//The isset determines if a variable is set and is not //NULL
 		//The GET method sends the encoded user information to //the document called data.txt
 		if ( isSet( $_GET[ 'data' ] ) ) {
 			//The function returns a string with all Null bytes, HTML and PHP tags from a given input string
 			$answer = strip_tags( $_GET[ 'data' ] );
 			if ( $answer != "" ) {
-				//put the user's string into the document data.txt as a paragraph 
+				//put the user's string into the document data.txt as a paragraph
 				file_put_contents( "./data.txt", "
 				<p>$answer</p>\n", FILE_APPEND );
 			}
